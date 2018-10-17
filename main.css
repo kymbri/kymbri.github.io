@@ -49,5 +49,206 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 2;
+  max-width: 100%; }
+  html.flex-grow, body.flex-grow, div.flex-grow, span.flex-grow, applet.flex-grow, object.flex-grow, iframe.flex-grow, h1.flex-grow, h2.flex-grow, h3.flex-grow, h4.flex-grow, h5.flex-grow, h6.flex-grow, p.flex-grow, blockquote.flex-grow, pre.flex-grow, a.flex-grow, abbr.flex-grow, acronym.flex-grow, address.flex-grow, big.flex-grow, cite.flex-grow, code.flex-grow, del.flex-grow, dfn.flex-grow, em.flex-grow, img.flex-grow, ins.flex-grow, kbd.flex-grow, q.flex-grow, s.flex-grow, samp.flex-grow, small.flex-grow, strike.flex-grow, strong.flex-grow, sub.flex-grow, sup.flex-grow, tt.flex-grow, var.flex-grow, b.flex-grow, u.flex-grow, i.flex-grow, center.flex-grow, dl.flex-grow, dt.flex-grow, dd.flex-grow, ol.flex-grow, ul.flex-grow, li.flex-grow, fieldset.flex-grow, form.flex-grow, label.flex-grow, legend.flex-grow, table.flex-grow, caption.flex-grow, tbody.flex-grow, tfoot.flex-grow, thead.flex-grow, tr.flex-grow, th.flex-grow, td.flex-grow, article.flex-grow, aside.flex-grow, canvas.flex-grow, details.flex-grow, embed.flex-grow, figure.flex-grow, figcaption.flex-grow, footer.flex-grow, header.flex-grow, hgroup.flex-grow, main.flex-grow, menu.flex-grow, nav.flex-grow, output.flex-grow, ruby.flex-grow, section.flex-grow, summary.flex-grow, time.flex-grow, mark.flex-grow, audio.flex-grow, video.flex-grow {
+    flex-grow: 100; }
+  html.flex-shrink, body.flex-shrink, div.flex-shrink, span.flex-shrink, applet.flex-shrink, object.flex-shrink, iframe.flex-shrink, h1.flex-shrink, h2.flex-shrink, h3.flex-shrink, h4.flex-shrink, h5.flex-shrink, h6.flex-shrink, p.flex-shrink, blockquote.flex-shrink, pre.flex-shrink, a.flex-shrink, abbr.flex-shrink, acronym.flex-shrink, address.flex-shrink, big.flex-shrink, cite.flex-shrink, code.flex-shrink, del.flex-shrink, dfn.flex-shrink, em.flex-shrink, img.flex-shrink, ins.flex-shrink, kbd.flex-shrink, q.flex-shrink, s.flex-shrink, samp.flex-shrink, small.flex-shrink, strike.flex-shrink, strong.flex-shrink, sub.flex-shrink, sup.flex-shrink, tt.flex-shrink, var.flex-shrink, b.flex-shrink, u.flex-shrink, i.flex-shrink, center.flex-shrink, dl.flex-shrink, dt.flex-shrink, dd.flex-shrink, ol.flex-shrink, ul.flex-shrink, li.flex-shrink, fieldset.flex-shrink, form.flex-shrink, label.flex-shrink, legend.flex-shrink, table.flex-shrink, caption.flex-shrink, tbody.flex-shrink, tfoot.flex-shrink, thead.flex-shrink, tr.flex-shrink, th.flex-shrink, td.flex-shrink, article.flex-shrink, aside.flex-shrink, canvas.flex-shrink, details.flex-shrink, embed.flex-shrink, figure.flex-shrink, figcaption.flex-shrink, footer.flex-shrink, header.flex-shrink, hgroup.flex-shrink, main.flex-shrink, menu.flex-shrink, nav.flex-shrink, output.flex-shrink, ruby.flex-shrink, section.flex-shrink, summary.flex-shrink, time.flex-shrink, mark.flex-shrink, audio.flex-shrink, video.flex-shrink {
+    flex-shrink: 100; }
+  html.no-scroll, body.no-scroll, div.no-scroll, span.no-scroll, applet.no-scroll, object.no-scroll, iframe.no-scroll, h1.no-scroll, h2.no-scroll, h3.no-scroll, h4.no-scroll, h5.no-scroll, h6.no-scroll, p.no-scroll, blockquote.no-scroll, pre.no-scroll, a.no-scroll, abbr.no-scroll, acronym.no-scroll, address.no-scroll, big.no-scroll, cite.no-scroll, code.no-scroll, del.no-scroll, dfn.no-scroll, em.no-scroll, img.no-scroll, ins.no-scroll, kbd.no-scroll, q.no-scroll, s.no-scroll, samp.no-scroll, small.no-scroll, strike.no-scroll, strong.no-scroll, sub.no-scroll, sup.no-scroll, tt.no-scroll, var.no-scroll, b.no-scroll, u.no-scroll, i.no-scroll, center.no-scroll, dl.no-scroll, dt.no-scroll, dd.no-scroll, ol.no-scroll, ul.no-scroll, li.no-scroll, fieldset.no-scroll, form.no-scroll, label.no-scroll, legend.no-scroll, table.no-scroll, caption.no-scroll, tbody.no-scroll, tfoot.no-scroll, thead.no-scroll, tr.no-scroll, th.no-scroll, td.no-scroll, article.no-scroll, aside.no-scroll, canvas.no-scroll, details.no-scroll, embed.no-scroll, figure.no-scroll, figcaption.no-scroll, footer.no-scroll, header.no-scroll, hgroup.no-scroll, main.no-scroll, menu.no-scroll, nav.no-scroll, output.no-scroll, ruby.no-scroll, section.no-scroll, summary.no-scroll, time.no-scroll, mark.no-scroll, audio.no-scroll, video.no-scroll {
+    overflow: hidden; }
+  html h1, body h1, div h1, span h1, applet h1, object h1, iframe h1, h1 h1, h2 h1, h3 h1, h4 h1, h5 h1, h6 h1, p h1, blockquote h1, pre h1, a h1, abbr h1, acronym h1, address h1, big h1, cite h1, code h1, del h1, dfn h1, em h1, img h1, ins h1, kbd h1, q h1, s h1, samp h1, small h1, strike h1, strong h1, sub h1, sup h1, tt h1, var h1, b h1, u h1, i h1, center h1, dl h1, dt h1, dd h1, ol h1, ul h1, li h1, fieldset h1, form h1, label h1, legend h1, table h1, caption h1, tbody h1, tfoot h1, thead h1, tr h1, th h1, td h1, article h1, aside h1, canvas h1, details h1, embed h1, figure h1, figcaption h1, footer h1, header h1, hgroup h1, main h1, menu h1, nav h1, output h1, ruby h1, section h1, summary h1, time h1, mark h1, audio h1, video h1 {
+    font-size: 3rem;
+    line-height: 3rem; }
+  html h2, body h2, div h2, span h2, applet h2, object h2, iframe h2, h1 h2, h2 h2, h3 h2, h4 h2, h5 h2, h6 h2, p h2, blockquote h2, pre h2, a h2, abbr h2, acronym h2, address h2, big h2, cite h2, code h2, del h2, dfn h2, em h2, img h2, ins h2, kbd h2, q h2, s h2, samp h2, small h2, strike h2, strong h2, sub h2, sup h2, tt h2, var h2, b h2, u h2, i h2, center h2, dl h2, dt h2, dd h2, ol h2, ul h2, li h2, fieldset h2, form h2, label h2, legend h2, table h2, caption h2, tbody h2, tfoot h2, thead h2, tr h2, th h2, td h2, article h2, aside h2, canvas h2, details h2, embed h2, figure h2, figcaption h2, footer h2, header h2, hgroup h2, main h2, menu h2, nav h2, output h2, ruby h2, section h2, summary h2, time h2, mark h2, audio h2, video h2 {
+    font-size: 2.6rem;
+    line-height: 2.6rem; }
+  html h3, body h3, div h3, span h3, applet h3, object h3, iframe h3, h1 h3, h2 h3, h3 h3, h4 h3, h5 h3, h6 h3, p h3, blockquote h3, pre h3, a h3, abbr h3, acronym h3, address h3, big h3, cite h3, code h3, del h3, dfn h3, em h3, img h3, ins h3, kbd h3, q h3, s h3, samp h3, small h3, strike h3, strong h3, sub h3, sup h3, tt h3, var h3, b h3, u h3, i h3, center h3, dl h3, dt h3, dd h3, ol h3, ul h3, li h3, fieldset h3, form h3, label h3, legend h3, table h3, caption h3, tbody h3, tfoot h3, thead h3, tr h3, th h3, td h3, article h3, aside h3, canvas h3, details h3, embed h3, figure h3, figcaption h3, footer h3, header h3, hgroup h3, main h3, menu h3, nav h3, output h3, ruby h3, section h3, summary h3, time h3, mark h3, audio h3, video h3 {
+    font-size: 2.2rem;
+    line-height: 2.2rem; }
+  html h4, body h4, div h4, span h4, applet h4, object h4, iframe h4, h1 h4, h2 h4, h3 h4, h4 h4, h5 h4, h6 h4, p h4, blockquote h4, pre h4, a h4, abbr h4, acronym h4, address h4, big h4, cite h4, code h4, del h4, dfn h4, em h4, img h4, ins h4, kbd h4, q h4, s h4, samp h4, small h4, strike h4, strong h4, sub h4, sup h4, tt h4, var h4, b h4, u h4, i h4, center h4, dl h4, dt h4, dd h4, ol h4, ul h4, li h4, fieldset h4, form h4, label h4, legend h4, table h4, caption h4, tbody h4, tfoot h4, thead h4, tr h4, th h4, td h4, article h4, aside h4, canvas h4, details h4, embed h4, figure h4, figcaption h4, footer h4, header h4, hgroup h4, main h4, menu h4, nav h4, output h4, ruby h4, section h4, summary h4, time h4, mark h4, audio h4, video h4 {
+    font-size: 1.8rem;
+    line-height: 1.8rem; }
+  html h5, body h5, div h5, span h5, applet h5, object h5, iframe h5, h1 h5, h2 h5, h3 h5, h4 h5, h5 h5, h6 h5, p h5, blockquote h5, pre h5, a h5, abbr h5, acronym h5, address h5, big h5, cite h5, code h5, del h5, dfn h5, em h5, img h5, ins h5, kbd h5, q h5, s h5, samp h5, small h5, strike h5, strong h5, sub h5, sup h5, tt h5, var h5, b h5, u h5, i h5, center h5, dl h5, dt h5, dd h5, ol h5, ul h5, li h5, fieldset h5, form h5, label h5, legend h5, table h5, caption h5, tbody h5, tfoot h5, thead h5, tr h5, th h5, td h5, article h5, aside h5, canvas h5, details h5, embed h5, figure h5, figcaption h5, footer h5, header h5, hgroup h5, main h5, menu h5, nav h5, output h5, ruby h5, section h5, summary h5, time h5, mark h5, audio h5, video h5 {
+    font-size: 1.4rem;
+    line-height: 1.4rem; }
+  html h6, body h6, div h6, span h6, applet h6, object h6, iframe h6, h1 h6, h2 h6, h3 h6, h4 h6, h5 h6, h6 h6, p h6, blockquote h6, pre h6, a h6, abbr h6, acronym h6, address h6, big h6, cite h6, code h6, del h6, dfn h6, em h6, img h6, ins h6, kbd h6, q h6, s h6, samp h6, small h6, strike h6, strong h6, sub h6, sup h6, tt h6, var h6, b h6, u h6, i h6, center h6, dl h6, dt h6, dd h6, ol h6, ul h6, li h6, fieldset h6, form h6, label h6, legend h6, table h6, caption h6, tbody h6, tfoot h6, thead h6, tr h6, th h6, td h6, article h6, aside h6, canvas h6, details h6, embed h6, figure h6, figcaption h6, footer h6, header h6, hgroup h6, main h6, menu h6, nav h6, output h6, ruby h6, section h6, summary h6, time h6, mark h6, audio h6, video h6 {
+    /* font-size: 1rem;
+	..
+	 */ }
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  padding: 1rem;
+  padding-right: 0;
+  padding-top: 0; }
+  header a {
+    text-decoration: none;
+    color: #cccccc;
+    height: 100%;
+    width: 100%;
+    transition: all .2s ease-in-out; }
+  header .active a {
+    border-bottom: 4px solid #cccccc; }
+  header a {
+    width: 100%;
+    padding: .5rem .25rem;
+    padding-right: 2rem;
+    border-bottom: 4px solid transparent; }
+    header a:hover {
+      background-color: #333333;
+      border-bottom: 4px solid #cccccc;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      transition: all .2s ease-in-out; }
+  header .logo a {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  header .navigation .navigation-list {
+    flex-direction: column;
+    width: 100%; }
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #666666;
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: "Space Mono", monospace; }
+  .content section {
+    padding-bottom: 1rem; }
+    .content section .center {
+      display: flex;
+      justify-content: center; }
+
+.card-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  padding-bottom: 0 !important;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  transition: all .2s ease-in-out; }
+  .card-overlay.active {
+    visibility: visible;
+    opacity: 1; }
+  .card-overlay .card-display {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 80%;
+    width: 90%;
+    max-width: 60rem;
+    background-color: white;
+    border: 4px solid black;
+    padding: 1rem;
+    overflow: hidden; }
+    @media (max-width: 600px) {
+      .card-overlay .card-display {
+        height: 100%;
+        width: 100%;
+        border: none; } }
+    .card-overlay .card-display .row {
+      display: block;
+      margin-bottom: 1rem; }
+    .card-overlay .card-display .column {
+      display: inline-block; }
+    .card-overlay .card-display .exit {
+      display: inline-block;
+      float: right;
+      text-decoration: none;
+      color: #666666;
+      transition: color .2s ease;
+      cursor: pointer; }
+      .card-overlay .card-display .exit:hover {
+        color: black; }
+    .card-overlay .card-display .title {
+      display: inline-block;
+      font-family: "Work Sans", sans-serif;
+      text-decoration: underline; }
+    .card-overlay .card-display .separator {
+      display: inline-block;
+      margin: 0 .5rem; }
+    .card-overlay .card-display .price {
+      display: inline-block; }
+    .card-overlay .card-display .card-image {
+      display: inline-block;
+      margin-right: 1rem; }
+    .card-overlay .card-display .description, .card-overlay .card-display .full-description {
+      display: inline-block; }
+    .card-overlay .card-display .description {
+      margin-bottom: 1rem; }
+    .card-overlay .card-display .full-description {
+      overflow-y: scroll; }
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .cards .image-link {
+    transition: all .2s ease-in-out;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: inherit; }
+    .cards .image-link:after {
+      content: "\F002";
+      opacity: 0;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      width: 100%;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3rem;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: all 0.3s ease-in-out; }
+    .cards .image-link:hover:after {
+      content: "\F002";
+      color: white;
+      background-color: black;
+      opacity: 0.6;
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free"; }
+  .cards .card {
+    border: 4px solid black;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem; }
+    .cards .card img {
+      margin-bottom: 1rem; }
+    .cards .card .title {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-decoration: underline;
+      padding: 0; }
+    .cards .card .description {
+      display: flex; }
+
 
 /*# sourceMappingURL=main.css.map*/
